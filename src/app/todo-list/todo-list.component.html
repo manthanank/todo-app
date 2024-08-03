@@ -1,8 +1,7 @@
-<div>
-    <div *ngFor="let todo of todos; let i = index" class="flex items-center mb-2">
-      <input type="checkbox" [checked]="todo.completed" (change)="toggle.emit(i)" class="mr-2">
-      <span [class]="todo.completed ? 'line-through' : ''">{{ todo.text }}</span>
-      <button (click)="delete.emit(i)" class="ml-auto bg-red-500 text-white rounded p-1">Delete</button>
-    </div>
+<div class="w-1/2 mx-auto mt-8">
+  <div *ngFor="let todo of todos; let i = index" class="flex items-center mb-2">
+    <input type="checkbox" [checked]="todo.completed" (change)="toggle.emit(i)" class="mr-2">
+    <span [ngClass]="{'line-through': todo.completed}">{{ todo.text }}</span>
+    <button (click)="delete.emit(i)" class="ml-auto bg-red-500 text-white rounded p-1">Delete</button>
   </div>
-  
+</div>
