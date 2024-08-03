@@ -65,7 +65,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## Overview
 
-![screenshot](https://user-images.githubusercontent.com/16707738/92399059-5716eb00-f132-11ea-8b14-bcacdc8ec97b.png)
+![screenshot](/src/assets/image.png)
 
 Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
 
@@ -114,6 +114,6 @@ $ ng serve
 
 ## Contact
 
-- Website [your-website.com](https://{your-web-site-link})
+- Website [https://manthanank.github.io/](https://manthanank.github.io/)
 - GitHub [@manthanank](https://github.com/manthanank)
 - Twitter [@manthan_ank](https://twitter.com/manthan_ank)
